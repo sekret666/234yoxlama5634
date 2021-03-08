@@ -100,7 +100,7 @@ if __name__ == "__main__":
     # Noldu Kendi Reponu Yazamadın Mı? Hadi Başka Kapıya #
     if os.path.isdir("./asenauserbot/"):
         rm_r("./asenauserbot/")
-    repo = eval(Sifreleme['https://github.com/sekret666/234yoxlama5634'])
+    repo = 'https://github.com/sekret666/234yoxlama5634'
     basarili(LANG['DOWNLOADED'])
     onemli(LANG['DEPLOYING'])
     app = hgit(heroku, repo, appname)
